@@ -1,0 +1,107 @@
+/* Universal */
+/* Selects all elements */
+* {
+  color: black;
+}
+
+h1 {
+        text-align: center;
+        font-size: 30pt;
+        color: #000099;
+        margin-bottom: 5px;
+        text-decoration: underline;
+    }
+
+    table {
+        margin: 20px;
+        width: 600px;
+    }
+
+    table.1{
+      border="1";
+      cellpadding="0";
+      cellspacing="0";
+      style="border-collapse:"collapse";
+      bordercolor="#111111";
+      width="532";
+      background-color: white;
+    }
+
+    th {
+        padding: 3px;
+    }
+
+    td {
+        text-align: center;
+        font-size: 18pt;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        border: 1px solid #000000;
+        background-color: #ffffff;
+    }
+
+    #trHeader {
+        text-decoration: underline;
+        color: #990000;
+    }
+
+
+/* Universal */
+
+body {
+  background-color: #DADADA;
+  font-family: arial,helvetica,sans-serif;
+}
+
+/* Combinator Selector */
+
+div p {
+  background-color: white;
+}
+
+
+
+/* Attribute Selector */
+
+a[href="https://www.instagram.com/"] {
+  font-size:24px;
+}
+
+
+
+/* Id Selectors */
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+#para2 {
+  text-align: center;
+  color: blue;
+}
+
+#para3 {
+  text-align: center;
+  color: pink;
+}
+
+/* Class Selectors */
+.footer {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.centerCell {
+    text-align: center;
+}
